@@ -30,11 +30,15 @@
 .body1 {
     background-image: url("https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
+    background-position-x: left;
+    background-position-y: top;
 }
 
 .body2{
     background-image: url("https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
+    background-position-x: left;
+    background-position-y: top;
 }
 
 .header1 {
@@ -54,3 +58,6 @@
     height: auto;
 }
 
+#nationality{
+    display: inline-block;
+}
