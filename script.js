@@ -40,7 +40,7 @@ btnActivity.addEventListener("click", () => {
     });
 });
 
-//Age API
+//Age und Nation API
 
 function predictAge() {
   const name = document.getElementById("name").value;
@@ -69,6 +69,8 @@ function predictNationality() {
       alert("An error occurred while predicting your nationality. Please try again later.");
     });
   }
+
+
 //Dog API
 
 
