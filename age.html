@@ -34,7 +34,7 @@
   </nav>
 <div class="container">
     <h1 class="header1">Enter your name:</h1>
-    <input type="text" placeholder="Bsp:Max" id="name" class="input">
+    <input type="text" placeholder="Bsp:Max" onfocus="this.placeholder=''" onblur="this.placeholder='Bsp:Max'"  id="name" class="input">
     <button class="button" onclick="predictAge(); predictNationality()">Predict age and nationality</button>
     <p class="output">Your predicted age is: <span id="age"></span></p>
     <p class="output">Your predicted nationality is: <span class="nationality"id="nationality"></span></p>
