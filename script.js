@@ -4,6 +4,9 @@ const lastActivities = document.getElementById("lastActivities");
 let previousActivity = null;
 
 btnActivity.addEventListener("click", () => {
+  //diese Zeile setzt den style der ID activity von "none" im HTML code auf "block", damit es Sichtbar wird
+  document.getElementById("activity").style.display="block";
+  //Anfrage an die API
   fetch("https://www.boredapi.com/api/activity")
     .then(response => response.json())
     .then(data => {
